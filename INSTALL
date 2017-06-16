@@ -1,0 +1,18 @@
+Execute the following commands from the current directory to install and
+initialize the virtual environment
+    pip install virtualenv
+    virtualenv basicml
+    virtualenv -p ~/anaconda3/bin/python3.5 basicml
+
+You may need to change the first argument of the "virtualenv -p ..." command
+above to your favorite python3.5 interpreter.
+
+Activate the virtual environment by executing the following command
+    source basicml/bin/activate
+
+Install all the requirements by executing the following command
+    pip install -r requirements.txt
+
+
+NOTES
+1. to update requirements.txt, "pip freeze > requirements.txt"
