@@ -9,6 +9,8 @@ Activate the virtual environment by executing the following command
 Install all the requirements by executing the following command
     pip install -r requirements.txt
 
+To run the notebook(s), execute the following:
+    jupyter notebook basic_ml.ipynb
 
 NOTES
 1. to update requirements.txt, "pip freeze > requirements.txt"
